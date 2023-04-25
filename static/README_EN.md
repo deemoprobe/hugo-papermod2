@@ -1,6 +1,6 @@
 ## Description
 
-Language：English | [中文](https://github.com/deemoprobe/hugo-papermod2)
+Language：English | [中文](https://github.com/deemoprobe/hugo-papermod2#%E8%AF%B4%E6%98%8E)
 
 > Hugo PaperMod2 is a theme based on [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
