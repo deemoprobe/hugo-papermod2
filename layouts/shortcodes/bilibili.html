@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
     <style type="text/css">
         .bilibili_shortcodes {
@@ -23,22 +24,18 @@
     </style>
     <title></title>
 </head>
-<body>
-<div class="bilibili_shortcodes">
-    <iframe
-            src="https://player.bilibili.com/player.html?bvid={{.Get 0 }}&page={{ if .Get 1 }}{{.Get 1}}{{ else }}1&high_quality=1&danmaku=0&as_wide=0{{end}}"
-            scrolling="no"
-            border="0"
-            frameborder="no"
-            framespacing="0"
-            allowfullscreen="true"
-    >
-    </iframe>
-    <!-- src 中的 &high_quality=1&danmaku=0 设定了高清程度并默认屏蔽弹幕 -->
-    <!-- sandbox 阻止了点击视频中的按钮跳转到B站的行为 -->
-    <!-- sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" -->
 
-    <!--
+<body>
+    <div class="bilibili_shortcodes">
+        <iframe
+            src="https://player.bilibili.com/player.html?bvid={{.Get 0 }}&page={{ if .Get 1 }}{{.Get 1}}{{ else }}1&high_quality=1&danmaku=0&as_wide=0{{end}}"
+            scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+        </iframe>
+        <!-- src 中的 &high_quality=1&danmaku=0 设定了高清程度并默认屏蔽弹幕 -->
+        <!-- sandbox 阻止了点击视频中的按钮跳转到B站的行为 -->
+        <!-- sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" -->
+
+        <!--
 cid	        chat id，每个 chat id 对应一组弹幕池如填了 aid ，这个字段不填也没关系
 aid	        article id ，视频的 av 号就是B站的 avxxxx 后面的数字
 bvid	    bilibili video id ，视频的 bv 号 2020.03 时候，B站把 av 号根据一定的算法转成这个了如果填了 bvid ，那么 aid 不填也可以
@@ -50,6 +47,7 @@ danmaku	    是否开启弹幕
 t	        打开时，自动跳转到某个时间，并且自动播放（单位秒）比如 t=60 ，那么自动跳转到1分钟，且自动播放
     -->
 
-</div>
+    </div>
 </body>
+
 </html>
