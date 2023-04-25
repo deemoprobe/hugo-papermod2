@@ -1,0 +1,22 @@
+{
+    /*
+    对当前目录下所有文件生效
+    JSON默认不支持注释，需要在Vscode状态栏右下角点击JSON，选择".json的配置文件关联"，搜索JSON选择JSON with Comments
+    */
+    //MD024 - Multiple headings with the same content, 允许标题相同
+    "MD024": {
+        "siblings_only": true
+    },
+    // MD033 - Inline HTML, 禁用以允许Markdown中插入HTML字符
+    "MD033": false,
+    // MD025—Multiple top level headings in the same document, 禁用以允许同一文档中出现多个一级标题
+    "MD025": false,
+    // 允许tab键
+    "MD010": false,
+    "MD013": {
+        "code_block_line_length": 5000, // 代码行的最大长度，按实际情况调整
+        "line_length": 10000 // 行的最大长度
+    },
+    "MD036": false,
+    "MD041": false
+}
