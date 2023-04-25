@@ -1,3 +1,5 @@
+## Description
+
 Language：English | [中文](https://github.com/deemoprobe/hugo-papermod2)
 
 > Hugo PaperMod2 is a theme based on [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod).
@@ -14,7 +16,7 @@ Language：English | [中文](https://github.com/deemoprobe/hugo-papermod2)
 
 ## 3. Modify information
 
-There are many personal information in the template that need to be configured by yourself. Please be patient to modify it. You can refer to the blogger's website building tutorial:[ https://YOUR_DOMAIN/posts/blog/ ]( https://YOUR_DOMAIN/posts/blog/ )
+There are many personal information in the template that need to be configured by yourself. Please be patient to modify it. You can refer to the blogger's website building tutorial:[https://YOUR_DOMAIN/posts/blog/](https://YOUR_DOMAIN/posts/blog/)
 
 ## 4. Hugo blog exchange group
 
@@ -30,13 +32,13 @@ There are many personal information in the template that need to be configured b
 
 `douban: {{< douban src="网址" >}}`
 
-```
+```bash
 #Intra article link card
 #To add md at the end, you can only fill in the relative path, as shown below
 {{< innerlink src="posts/tech/mysql_1.md" >}}
 ```
 
-```
+```bash
 gallery:
 
 {{< gallery >}}
@@ -46,6 +48,5 @@ gallery:
 ```
 
 ## 5. Possible problems
-
 
 1. Some users will deploy to GitHub and may encounter cross system problems, such as the prompt `lf will be replaced by CRLF in *******`, and then enter the command: `git config core.autocrlf false`, which solves the problem of automatic conversion of line breaks。
