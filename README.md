@@ -1,4 +1,4 @@
-语言：中文 | [English](https://github.com/deemoprobe/hugo-papermod2/blob/main/static/README_EN.md)
+语言：中文 | [English](https://github.com/deemoprobe/hugo-papermod2/blob/master/static/README_EN.md)
 
 > 该主题根据Hugo PaperMod主题修改而来: <https://github.com/adityatelange/hugo-PaperMod>
 
