@@ -13,7 +13,7 @@ buildFuture: false
 buildExpired: false
 
 googleAnalytics:  # 谷歌统计
-# Copyright: Sulv
+# Copyright: deemoprobe
 
 paginate: 15    # 首页每页显示的文章数
 summaryLength: 140 # 文章概览的自字数，默认70
@@ -35,10 +35,10 @@ languages:
     weight: 1
     profileMode:
       enabled: true
-      title: (〃'▽'〃)
-      subtitle:
+      title: 我的博客小站 #(〃'▽'〃)
+      subtitle: "🧨业精于勤荒于嬉，行成于思毁于随"
       # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-      imageUrl: "img/Q.gif"
+      imageUrl: "img/bear.gif"
       imageTitle:
       imageWidth: 150
       imageHeight: 150
@@ -66,7 +66,7 @@ languages:
           url: tags
           weight: 15
         - identifier: archives
-          name: ⏱️ 时间轴
+          name: 📈 归档
           url: archives/
           weight: 20
         - identifier: about
@@ -92,7 +92,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: ""
-  author: Sulv
+  author: deemoprobe
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto  # defaultTheme: light or  dark
@@ -117,26 +117,26 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/deemoprobe"
-    - name: twitter
-      url: "img/twitter.png"
-    - name: facebook
-      url: "https://www.facebook.com/profile.php?id=100027782410997"
-    - name: instagram
-      url: "img/instagram.png"
-    - name: QQ
-      url: "img/qq.png"
+    # - name: twitter
+    #   url: "img/twitter.png"
+    # - name: facebook
+    #   url: "https://www.facebook.com/profile.php?id=100027782410997"
+    # - name: instagram
+    #   url: "img/instagram.png"
+    # - name: QQ
+    #   url: "img/qq.png"
     - name: WeChat
       url: "img/wechat.png"
-    - name: bilibili
-      url: "https://space.bilibili.com/234461224"
-    - name: email
-      url: "mailto:2668311161@qq.com"
+    # - name: bilibili
+    #   url: "https://space.bilibili.com/234461224"
+    # - name: email
+    #   url: "mailto:2668311161@qq.com"
     - name: RSS
       url: "index.xml"
 
   label: # 左上角图标
     text: "William's Blog"
-    icon: "img/Q.gif"
+    icon: "img/bear.gif"
     iconHeight: 35
 
   analytics:
@@ -144,11 +144,11 @@ params:
       SiteVerificationTag: ""
 
   assets:
-    favicon: "img/Q.gif"
-    favicon16x16: "img/Q.gif"
-    favicon32x32: "img/Q.gif"
-    apple_touch_icon: "img/Q.gif"
-    safari_pinned_tab: "img/Q.gif"
+    favicon: "img/bear.gif"
+    favicon16x16: "img/bear.gif"
+    favicon32x32: "img/bear.gif"
+    apple_touch_icon: "img/bear.gif"
+    safari_pinned_tab: "img/bear.gif"
 
   cover:
     hidden: false # hide everywhere but not in structured data
@@ -173,14 +173,14 @@ params:
   # 打赏微信图片地址，
   # 可用绝对和相对地址，相对地址的图片需放在static/img下，
   # 填写格式为img/wechat_pay.png
-  WechatPay: img/wechat_pay.png
-  Alipay: img/alipay.png #打赏支付宝图片地址
+  WechatPay: "img/wechat_pay.png"
+  # Alipay: img/alipay.png #打赏支付宝图片地址
 
   # twikoo评论
-  twikoo:
-    version: 1.5.8 # 填写twikoo版本号
-    id:  # 填写自己的twikoo id
-    region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
+  # twikoo:
+  #   version: 1.5.8 # 填写twikoo版本号
+  #   id:  # 填写自己的twikoo id
+  #   region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
 
 taxonomies:
   category: categories

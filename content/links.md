@@ -14,8 +14,7 @@ showbreadcrumbs: false
 
 <div class="friend">
 
-{{< friend name="William's Blog" url="https://YOUR_DOMAIN" logo="https://YOUR_DOMAIN/img/Q.gif" word="一个记录技术、阅读、生活的博客" >}}
-
+{{< friend name="William's Blog" url="https://YOUR_DOMAIN" logo="https://YOUR_DOMAIN/img/bear.gif" word="一个记录技术、阅读、生活的博客" >}}
 
 </div>
 
@@ -25,19 +24,16 @@ showbreadcrumbs: false
 <br/>
 <br/>
 
-
-
 <div style="font-size: 20px;" class="youlian">👉友链格式</div>
 
 <div style="font-size: 16px;">
 
-
-|        |                                   |
-| ------ | --------------------------------- |
-| 名称： | William's Blog                       |
-| 网址： | https://YOUR_DOMAIN           |
-| 图标： | https://YOUR_DOMAIN/img/Q.gif |
-| 描述： | 一个记录技术、阅读、生活的博客    |
+|        |                                  |
+| ------ | -------------------------------- |
+| 名称： | William's Blog                   |
+| 网址： | <https://YOUR_DOMAIN>              |
+| 图标： | <https://YOUR_DOMAIN/img/bear.gif> |
+| 描述： | 一个记录技术、阅读、生活的博客   |
 
 </div>
 
@@ -52,10 +48,3 @@ showbreadcrumbs: false
 <div style="font-size: 20px;">👉Hugo博客交流群</div>
 
 > YOUR_QQ
-
-
-
-
-
-
-

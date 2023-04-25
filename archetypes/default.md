@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
-author: ["Sulv"]
+author: ["deemoprobe"]
 keywords: 
 - 
 categories: # 没有分类界面可以不填写
@@ -13,8 +13,8 @@ description: ""
 weight:
 slug: ""
 draft: false # 是否为草稿
-comments: true # 本页面是否显示评论
-reward: true # 打赏
+comments: false # 本页面是否显示评论
+reward: false # 打赏
 mermaid: true #是否开启mermaid
 showToc: true # 显示目录
 TocOpen: true # 自动展开目录

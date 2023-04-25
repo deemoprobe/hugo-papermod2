@@ -6,13 +6,13 @@ Language：English | [中文](https://github.com/deemoprobe/hugo-papermod2#%E8%A
 
 ## 1. Git clone pull code
 
-① Use `git clone` to pull the code to the desktop. At this time, the sulv Hugo papermod directory will be generated on the desktop
+① Use `git clone` to pull the code to the desktop. At this time, the hugo-papermod2 directory will be generated on the desktop
 
-② Enter the sulv Hugo papermod directory and enter `git submodule update --init` to pull the submodule under themes / Hugo papermod / and put the official theme inside
+② Enter the hugo-papermod2 directory and enter `git submodule update --init` to pull the submodule under themes / Hugo papermod / and put the official theme inside
 
 ## 2. Startup interface
 
-③ Return the directory to sulv Hugo papermod, enter `hugo server -d` in the terminal, and enter: localhost:1313 in the browser to see the ready-made blog template.
+③ Return the directory to hugo-papermod2, enter `hugo server -d` in the terminal, and enter: localhost:1313 in the browser to see the ready-made blog template.
 
 ## 3. Modify information
 

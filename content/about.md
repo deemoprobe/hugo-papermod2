@@ -1,13 +1,13 @@
 ---
-title: "🙋🏻‍♂️关于"
+title: "🙋🏻‍♂️ 关于作者"
 layout: about
-date: 2021-11-06T14:57:28+08:00
+date: 2022-11-06T14:57:28+08:00
 hidemeta: true
 description: ""
 weight:
 slug: ""
 draft: false # 是否为草稿
-comments: true
+comments: false
 reward: false
 showToc: false # 显示目录
 TocOpen: false # 自动展开目录
@@ -20,12 +20,27 @@ cover:
     relative: false
 ---
 
+有Linux基础，曾从事Docker、Kubernetes和中间件运维工作，熟悉常见的网络协议和网络数据包分析，熟悉常见的中间件，熟悉Docker、Kubernetes、Helm和Operator等云原生技术。了解架构设计的基本理念，对云原生和业务架构设计很感兴趣，目标是成为一名优秀的云原生全栈架构师。
 
+自知水平尚浅，但也始终相信“一分耕耘，一分收获”。
 
-<p style="font-size: 25px;">关于我</p>
+本博客将永久更新和维护，记录技术生涯的点滴以及生活的感悟。
 
-|           |                    |
-| --------- | ------------------ |
-| 英文名:   | Kevin Xu              |
-| 职业:     | 程序员             |
-| 运动:     | 跑步、乒乓球、爬山 |
+----------
+
+- NetName: deemoprobe
+- Email: deemoprobe@gmail.com
+- Blog: <https://deemoprobe.github.io>
+- GitHub: [deemoprobe](https://github.com/deemoprobe?tab=repositories)
+- Skills:
+  - Linux（RHCSA/RHCE/Shell）
+  - Docker/Kubernetes（CKA/CKS）
+  - DevOps（CICD：Jenkins/Ansible/Gitlab）
+  - Middleware（Weblogic/Nginx/Apache/Tomcat/JVM）
+  - Network(HTTP/TCPIP/netwox/tcpdump/Wireshark/PT/eNSP)
+- Hobby: Cloud Native/Architecture/Network/Kali/Golang/eBPF/Keyboard/Cooking/Journey/
+- Address: Shanghai China
+
+----------
+
+诸君共勉: **业精于勤荒于嬉,行成于思毁于随**

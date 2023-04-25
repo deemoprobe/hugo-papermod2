@@ -28,7 +28,7 @@
     background: unset;
     border-radius: unset;
     width: 100%;
-    margin: 0 2px 40px 2px;
+    margin: 0 20px 40px 60px; /*最后一个参数控制文章目录的左边距*/
 }
 
 .toc details summary {
