@@ -35,12 +35,14 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 body {
     font-size: 18px;
     line-height: 1.6;
+    /* font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", sans-serif; */
     font-family: Consolas, "MaShanZheng-Regular";
 }
 
 .post-content {
     /*color: var(--secondary);*/
     /*font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;*/
+    /* font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", sans-serif; */
     font-family: Consolas, "MaShanZheng-Regular";
 }
 

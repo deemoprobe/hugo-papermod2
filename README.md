@@ -16,13 +16,29 @@
 
 ③ 把目录定位到hugo-papermod2下，在终端输入`hugo server -D`，在浏览器输入：localhost:1313 即可看到现成的博客模板。
 
-## 3. 修改信息
+## 3. 修改与优化
 
 模板内部有许多个人信息需要自己配置，请耐心修改完，可以参考博主的建站教程：[https://YOUR_DOMAIN/posts/blog/](https://YOUR_DOMAIN/posts/blog/)
 
-## 4. Hugo博客交流群
+没有域名没有CDN，只想在GitHub Pages上写个技术/生活笔记，这种情况是不建议开启字体渲染以及使用太多JavaScript外链的。可以根据情况适当修改`layouts/partials/footer.html`、`assets\css\extended\fonts.css`、`assets\css\extended\blank.css`等文件
 
-🎉🎉 YOUR_QQ 🎉🎉
+## 4. 发布博客文章
+
+```bash
+# 生成新文章，可指定content下任意路径，不指定则直接在content目录下生成
+hugo new posts/tech/file.md
+# Markdown渲染为HTML，--cleanDestinationDir参数含义是生成静态博客的时清除部分用不上的static内容
+hugo -F --cleanDestinationDir
+
+# 同步到远程GitHub Pages仓库
+cd public
+# 下面两步仅需在首次git初始化执行
+# git init
+# git remote add origin https://github.com/deemoprobe/deemoprobe.github.io.git
+git add -A
+git commit -m "modify"
+git push -u origin master
+```
 
 ## 5. shortcodes使用方法
 

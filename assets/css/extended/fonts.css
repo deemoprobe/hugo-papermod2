@@ -1,3 +1,4 @@
+/* url建议使用CDN加速，否则字体渲染会有一定时间 */
 @font-face {
     font-family: "MaShanZheng-Regular";
     src: url("/fonts/MaShanZheng-Regular.ttf") format("truetype");
