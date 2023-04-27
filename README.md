@@ -65,10 +65,12 @@ gallery:
 {{< /gallery >}}
 ```
 
-## 小表情和图标的使用
+## 6. 小表情和图标的使用
 
 搜狗输入法"win+."快捷键可以调出输入法的表情，从中选择想要的即可使用🍕🍔🍟🌭🍿🚗🦽🚉，这些表情可以用在博客的任意位置：评论区、留言区、页面展示、菜单栏等等。
 
 ## 7. 可能遇到的问题
 
 1. 有些使用者会部署到github，可能遇到跨系统的问题，如提示`LF will be replaced by CRLF in ******`，这时输入命令：`git config core.autocrlf false`，解决换行符自动转换的问题。
+
+2. 国内访问时`jquery.min.js`和`font-awesome.min.css`两个文件加载特别慢，这时候需要更换这俩文件的CDN链接，网上直接搜即可，我暂时使用的是`https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js`和`https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css`，不挂VPN情况下加载时长在300ms以内，勉强可以使用。
