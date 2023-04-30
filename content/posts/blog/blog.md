@@ -13,8 +13,8 @@ description: ""
 weight:
 slug: ""
 draft: false # 是否为草稿
-comments: true
-reward: true # 打赏
+comments: false
+reward: false # 打赏
 mermaid: true #是否开启mermaid
 showToc: true # 显示目录
 TocOpen: true # 自动展开目录
@@ -31,3 +31,6 @@ cover:
 
 
 
+## 页面测试
+
+由于访问速度问题，没有域名也无法使用CDN加速，所以，去掉了很多花里胡哨的功能

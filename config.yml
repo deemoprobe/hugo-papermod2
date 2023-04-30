@@ -15,8 +15,8 @@ buildExpired: false
 googleAnalytics:  # 谷歌统计
 # Copyright: deemoprobe
 
-paginate: 15    # 首页每页显示的文章数
-summaryLength: 140 # 文章概览的自字数，默认70
+paginate: 10    # 首页每页显示的文章数
+summaryLength: 140 # 文章概览的字数，默认70
 
 minify:
   disableXML: true
@@ -35,44 +35,50 @@ languages:
     weight: 1
     profileMode:
       enabled: true
-      title: 我的博客小站 #(〃'▽'〃)
-      subtitle: "🧨业精于勤荒于嬉，行成于思毁于随"
+      title: Where there’s a will #(〃'▽'〃)
+      subtitle: "There’s a way"
       # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
       imageUrl: "img/bear.gif"
       imageTitle:
       imageWidth: 150
       imageHeight: 150
       buttons:
-        - name: 🧱 建站
-          url: posts/blog
         - name: 👨🏻‍💻 技术
           url: posts/tech
-        - name: 📕 阅读
+        # - name: 🧱 工具
+        #   url: tools
+        - name: 📚 阅读
           url: posts/read
-        - name: 🏖 生活
+        - name: 🍉 生活
           url: posts/life
+        - name: 🏃‍♂️ 作者
+          url: about
     menu:
       main:
         - identifier: home
           name: 🏠 主页
           url: /
           weight: 1
-        - identifier: posts
-          name: 📚 文章
-          url: posts
-          weight: 10
+        # - identifier: posts
+        #   name: 📚 文章
+        #   url: posts
+        #   weight: 10
         - identifier: tags
-          name: 🧩 标签
+          name: 🎨 标签
           url: tags
           weight: 15
         - identifier: archives
           name: 📈 归档
           url: archives/
           weight: 20
-        - identifier: about
-          name: 🙋🏻‍♂️ 关于
-          url: about
-          weight: 50
+        - identifier: tools
+          name: 🪁 工具
+          url: tools
+          weight: 20
+        # - identifier: about
+        #   name: 🙋🏻‍♂️ 关于
+        #   url: about
+        #   weight: 50
         - identifier: search
           name: 🔍 搜索
           url: search
@@ -98,12 +104,12 @@ params:
   defaultTheme: auto  # defaultTheme: light or  dark
   disableThemeToggle: false
   DateFormat: "2006-01-02"
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecialistPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false # 是否显示文章导航路径
   ShowCodeCopyButtons: true
   hideFooter: false # 隐藏页脚
   ShowWordCounts: true
@@ -113,7 +119,7 @@ params:
   ShowToc: true # 显示目录
   TocOpen: true # 自动展开目录
 
-  comments: true
+  comments: false # 评论
   socialIcons:
     - name: github
       url: "https://github.com/deemoprobe"
@@ -131,8 +137,8 @@ params:
     #   url: "https://space.bilibili.com/234461224"
     # - name: email
     #   url: "mailto:2668311161@qq.com"
-    - name: RSS
-      url: "index.xml"
+    # - name: RSS
+    #   url: "index.xml"
 
   label: # 左上角图标
     text: "William's Blog"
@@ -169,11 +175,11 @@ params:
   #PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
   #PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
 
-  Reward: true #打赏是否开启
+  Reward: false #打赏是否开启
   # 打赏微信图片地址，
   # 可用绝对和相对地址，相对地址的图片需放在static/img下，
   # 填写格式为img/wechat_pay.png
-  WechatPay: "img/wechat_pay.png"
+  # WechatPay: "img/wechat_pay.png"
   # Alipay: img/alipay.png #打赏支付宝图片地址
 
   # twikoo评论

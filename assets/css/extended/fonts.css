@@ -1,10 +1,11 @@
-/* url建议使用CDN加速，否则字体渲染会有一定时间 */
 @font-face {
-    font-family: "MaShanZheng-Regular";
-    src: url("/fonts/MaShanZheng-Regular.ttf") format("truetype");
+    font-family: "LXGWWenKai-Regular";
+    src: url("/fonts/LXGWWenKaiLite-Regular.ttf") format("truetype");
+    font-display: swap;
 }
-
+/* 
 @font-face {
-    font-family: "NeverMindHand-Regular";
-    src: url("/fonts/NeverMindHand-Regular.ttf") format("truetype");
-}
+    font-family: "LXGWWenKai-Bold";
+    src: url("/fonts/LXGWWenKaiLite-Bold.ttf") format("truetype");
+    font-display: swap;
+} */
